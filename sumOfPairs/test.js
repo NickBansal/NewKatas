@@ -22,4 +22,13 @@ describe('Sum of pairs', () => {
   it('Should return the earliest pair of values which add up to the answer', () => {
     expect(sumOfPairs([10, 5, 2, 3, 7, 5], 10)).toEqual([3, 7]);
   });
+  it('Should return the earliest pair of values which add up to the answer', () => {
+    expect(sumOfPairs([1, -2, 3, 0, -6, 1], -6)).toEqual([0, -6]);
+  });
+  it('Should return the earliest pair of values which add up to the answer', () => {
+    expect(sumOfPairs([10, 5, 2, 3, 7, 5], 10)).toEqual([3, 7]);
+  });
+  it('Should return the earliest pair of values which add up to the answer', () => {
+    expect(sumOfPairs([5, 9, 13, -3], 10)).toEqual([13, -3]);
+  });
 });
